@@ -15,7 +15,7 @@ echo       OR: Run the .exe from the Intel oneAPI command prompt for Intel 64 fo
      
 cd CompileFolder
 
-ifort mod_CH.f90 mod_jit_dgemm.f90 *.f90  /extend-source:132 /fpp /real-size:64 /D_AVX512 /Qipo /libs:dll /threads /Qmkl:parallel /fast /c
+ifort mod_CH.f90 mod_jit_dgemm.f90 *.f90  /extend-source:132 /fpp /real-size:64 /Qipo /libs:dll /threads /Qmkl:parallel /fast /c
 ifort *.obj /exe:_CH
 
 copy *.exe ..\..
