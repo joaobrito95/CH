@@ -1,4 +1,4 @@
-# CH: Numerical-based homogenization of plastic potentials for porous media
+# CH: Computational homogenization of plastic potentials for porous media
 
 Implementation of numerical-based homogenization of plastic potentials for porous media using spherical designs. Fortran90 code. Software licensed under the MPL2. 
 
