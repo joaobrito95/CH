@@ -1,0 +1,49 @@
+1010*****   < DD3IMP O10.x >  File "DD3oPorous.dat"  13.12.2021      ***********
+*********   MANDATORY file for computational homogenization model     **********
+===================+============================================================
+Discretization     |    author   nPoints                                        
+ (sphr t-design)   |         1       300                                        
+-------------------+------------------------------------------------------------
+Control parameters |       Tol      nRad                              
+                   |  1.00e-06        10                              
+-------------------+------------------------------------------------------------
+Geometry           |        f0                                                  
+                   |      1e-4                                                  
+-------------------+------------------------------------------------------------
+Material           |    num_ex                                                  
+  (CPB06_ex)       |         1                                                  
+                   +------------------------------------------------------------
+                   |         a      k0_1      k0_2      k0_3      k0_4          
+                   |       2.0   -0.0298      -0.3       0.0       0.0          
+                   |     C11_1     C22_1     C33_1     C44_1     C55_1     C66_1
+                   |       1.0  1.708500  1.728981       1.0       1.0  0.429935
+                   |     C23_1     C13_1     C12_1                              
+                   | 1.3912842  1.290730  1.151217                              
+                   |     C11_2     C22_2     C33_2     C44_2     C55_2     C66_2
+                   |     0.417    -0.442       0.5    -0.975    -1.793      -2.0
+                   |     C23_2     C13_2     C12_2                              
+                   |      -0.5       0.5     -0.82                              
+                   |     C11_3     C22_3     C33_3     C44_3     C55_3     C66_3
+                   |       1.0       1.0       1.0       1.0       1.0       1.0
+                   |     C23_3     C13_3     C12_3                              
+                   |       0.0       0.0       0.0                              
+                   |     C11_4     C22_4     C33_4     C44_4     C55_4     C66_4
+                   |       1.0       1.0       1.0       1.0       1.0       1.0
+                   |     C23_4     C13_4     C12_4                              
+                   |       0.0       0.0       0.0                              
+===================+============================================================
+
+Remarks:
+    author - author of the spherical t-design                                    
+             1  - WomersleySym (anti-podal, max 63-design, 2018 points)                                         
+             2  - WomersleyNonSym (max 63-design, 2049 points)                                                  
+             3  - Hardin (max 21-design, 240 points)                                                           
+   nPoints - upperbound of number of points of the design
+       Tol - tolerance of the 1-D SRP integration
+ TypRadStp - typical radial step (Default: 1/20(*b_radius))
+  xMaxDiff - factor of the max. gap between radial increm. (Def.: 1.5*TypRadStp)
+        f0 - Initial porosity
+
+Default folder name containing the t-design data: 'sphdesigns' 
+			(e.g. \sphdesigns\ss041.00864)
+			 
