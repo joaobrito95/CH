@@ -3,7 +3,9 @@
 Implementation of numerical-based homogenization of plastic potentials for porous media using spherical designs. Fortran90 code. Software licensed under the MPL2. 
 
 ## How do I get set up?
-    Edit the matrix plastic yield criterion in file matmodel.dat
+1. Edit the matrix plastic yield criterion and cubature parameters in file `matmodel.dat`
+2. Prescribe the loading for the direct and the inverse problems in file `loading.dat`
+3. Run the executable file `_CH.exe` (Requires Intel® Math Kernel Library (MKL) for Fortran)
 
 ## Who do I talk to?
 
