@@ -13,3 +13,5 @@ Implementation of numerical-based homogenization of plastic potentials for porou
 
 ## Reference
 Brito, J. P. (2023), _Numerical-Based Plastic Potentials for Anisotropic Porous Metallic Materials: Development and Implementation_, PhD Thesis, Universidade de Coimbra, Coimbra.
+
+This research was carried out under the doctoral grant ref SFRH/BD/144347/2019 of the Portuguese Foundation for Science and Technology (FCT, I. P.)
